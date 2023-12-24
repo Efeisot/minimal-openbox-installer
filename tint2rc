@@ -5,7 +5,7 @@
 #-------------------------------------
 # Backgrounds
 # Background 1: Active task, Panel, Tooltip
-rounded = 7
+rounded = 0
 border_width = 2
 border_sides = TBLR
 border_content_tint_weight = 0
@@ -18,7 +18,7 @@ background_color_pressed = #000000 60
 border_color_pressed = #61c2ff 16
 
 # Background 2: Urgent task
-rounded = 5
+rounded = 0
 border_width = 0
 border_sides = TBLR
 border_content_tint_weight = 0
@@ -31,7 +31,7 @@ background_color_pressed = #61c2ff 40
 border_color_pressed = #61c2ff 48
 
 # Background 3: Default task, Iconified task
-rounded = 5
+rounded = 0
 border_width = 0
 border_sides = TBLR
 border_content_tint_weight = 0
@@ -53,8 +53,8 @@ panel_background_id = 1
 wm_menu = 0
 panel_dock = 0
 panel_pivot_struts = 0
-panel_position = top center horizontal
-panel_layer = top
+panel_position = bottom center horizontal
+panel_layer = bottom
 panel_monitor = all
 panel_shrink = 0
 autohide = 0
@@ -63,7 +63,7 @@ autohide_hide_timeout = 2
 autohide_height = 2
 strut_policy = follow_size
 panel_window_name = tint2
-disable_transparency = 0
+disable_transparency = 1
 mouse_effects = 0
 font_shadow = 0
 mouse_hover_icon_asb = 100 0 10
