@@ -46,7 +46,7 @@ Bu betiğin amacı Openbox kurulumunu ve özelleştirmesini kolaylaştırmaktır
 
 Aşağıdaki komutları terminale girmeniz yeterli olacaktır.
 ```
-sudo apt install git && git clone https://github.com/KaptanLingu/openbox-installer.git && cd openbox-installer && chmod +x *.sh && ./install.sh
+sudo apt install git && git clone https://github.com/Efeisot/minimal-openbox-installer.git && cd minimal-openbox-installer && chmod +x *.sh && ./install.sh
 ```
 
 ## [TR] KURULUM SONRASI
