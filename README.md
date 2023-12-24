@@ -7,7 +7,7 @@
 
 <div align="center">
   <p align="center">Eklenecek</p>
-  <--!<img src="https://i.hizliresim.com/f20bxna.png">-->
+  <--! <img src="https://i.hizliresim.com/f20bxna.png"> -->
 </div>
   <p align="center">After the installation | Kurulumdan sonra</p>
 
