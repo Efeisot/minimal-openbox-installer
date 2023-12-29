@@ -143,9 +143,9 @@ launcher_icon_theme = ePapirus-Dark
 launcher_icon_theme_override = 0
 startup_notifications = 0
 launcher_tooltip = 0
-launcher_item_app = /usr/share/applications/brave-browser.desktop
+launcher_item_app = /usr/share/applications/firefox.desktop
 launcher_item_app = /usr/share/applications/thunar.desktop
-launcher_item_app = /usr/share/applications/lxterminal.desktop
+launcher_item_app = /usr/share/applications/alacritty.desktop
 
 #-------------------------------------
 # Clock
