@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/1100495744126947328/1190408389415686274/Screenshot_2023-12-30-00-37-36-073_x.org.server.jpg?ex=65a1b134&is=658f3c34&hm=02b992df202c63f7730b908a58b49b21b4c91b63465d6dba911864c085a4f7b3&">
+  <img src="https://media.discordapp.net/attachments/1100495744126947328/1190411005113675876/Screenshot_2023-12-30-00-37-36-073_x.org.server-1_1.jpg?ex=65a1b3a4&is=658f3ea4&hm=c1be85d2d18d2b0f47028ae6bc290a13a11cc043fe7ff7793d3787e2dc5a0179&">
 </div>
   <p align="center">After the installation | Kurulumdan sonra</p>
 
