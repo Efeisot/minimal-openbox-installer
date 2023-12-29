@@ -26,7 +26,7 @@ sudo apt install git veya sudo pacman -S git
 git clone https://github.com/Efeisot/minimal-openbox-installer.git
 cd minimal-openbox-installer/
 chmod *.sh
-./debian-installer.sh veya ./arch-installer,.sh
+./install.sh
 ```
 
 ## [TR] KURULUM SONRASI
