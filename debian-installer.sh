@@ -16,8 +16,8 @@ echo "Ev dizinleri ayarlanıyor..."
 xdg-user-dirs-update
 
 echo "Duvar kağıdı kopyalanıyor..."
-mkdir ~/.wp
-sudo cp wp.png ~/.wp
+mkdir ~/.local/share/wallpaper
+sudo cp wp.png ~/.local/share/wallpaper
 
 echo "tint2 configi kopyalanıyor..."
 mkdir ~/.config/tint2/
