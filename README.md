@@ -6,8 +6,8 @@
 </div>
 
 <div align="center">
-  <p align="center">Eklenecek</p>
-  <!-- <img src="https://i.hizliresim.com/f20bxna.png"> -->
+  <<img src="![Screenshot_2023-12-30-00-37-36-073_x org server-1_1](https://github.com/Efeisot/minimal-openbox-installer/assets/104940108/e580e9c7-1656-4678-97c0-e5964dbbc5c4)
+">
 </div>
   <p align="center">After the installation | Kurulumdan sonra</p>
 
