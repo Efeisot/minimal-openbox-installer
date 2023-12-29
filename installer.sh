@@ -14,7 +14,7 @@ while true; do
         sudo apt install -y nala
 
         echo "Installing necessary packages..."
-        sudo nala install -y acpi acpid alacritty alsa-utils avahi-daemon build-essential curl dialog dunst dbus-x11 dosfstools feh firefox gedit gvfs-backends libnotify-bin lightdm lxappearance lxinput lxrandr mtools neofetch network-manager network-manager-gnome numix-icon-theme openbox obconf obmenu pavucontrol pipewire volumeicon-alsa menu qt5-style-plugins qt5-style-kvantum rofi thunar tint2 wmctrl vlc xdg-user-dirs
+        sudo nala install -y acpi acpid alsa-utils avahi-daemon build-essential curl dialog dunst dbus-x11 dosfstools feh firefox gedit gvfs-backends jgmenu libnotify-bin lightdm lxappearance lxinput lxrandr lxterminal mtools neofetch network-manager network-manager-gnome numix-icon-theme openbox obconf pavucontrol pipewire volumeicon-alsa menu qt5-style-plugins qt5-style-kvantum rofi thunar tint2 wmctrl vlc xdg-user-dirs
 
         echo "Adding system services..."
         sudo systemctl enable avahi-daemon
