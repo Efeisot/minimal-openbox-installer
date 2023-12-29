@@ -145,7 +145,7 @@ startup_notifications = 0
 launcher_tooltip = 0
 launcher_item_app = /usr/share/applications/firefox.desktop
 launcher_item_app = /usr/share/applications/thunar.desktop
-launcher_item_app = /usr/share/applications/alacritty.desktop
+launcher_item_app = /usr/share/applications/lxterminal.desktop
 
 #-------------------------------------
 # Clock
