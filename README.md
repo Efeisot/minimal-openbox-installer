@@ -33,4 +33,4 @@ chmod *.sh
 
 `lxappearance`, `obconf`, `kvantum`  ve `tint2` yardımıyla basit kişiselleştirmelerinizi yapabilirsiniz. 
 Eğer kapsamlı bir kişiselleştirme yapmak istiyorsanız internette bulunan bununla ilgili rehberlerden yararlanabilirsiniz.
-Duvar kağıdını değiştirmek için istediğiniz duvar kağıdını ~/.wp/ klasörüne wp.png adını vererek atın.
+Duvar kağıdını değiştirmek için istediğiniz duvar kağıdını ~/.local/share/wallpaper klasörüne wp.png adını vererek atın.
