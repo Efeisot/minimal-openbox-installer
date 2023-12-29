@@ -15,44 +15,22 @@
 ## [TR] YÜKLEMEDEN ÖNCE
 
 Bu betiği kullanmadan önce kullandığınız dağıtıma herhangi bir masaüstü ortamı (DE) veya pencere yöneticisi (WM) kurmamış olmanız gerekmektedir.
-
-Bu betiği şu anlık Debian için yapmış olsam da ileride Arch ve Fedora için de hazırlamak istiyorum.
-
 Bu betiğin amacı Openbox kurulumunu ve özelleştirmesini kolaylaştırmaktır.
 
-## [TR] KURULUM İLE BERABER GELENLER
-
-- Hafif bir pencere yöneticisi (`openbox`)
-~~- Hafif bir dizgileyici (`picom`)~~ Kaldırıldı
-- Hafif bir terminal (`lxterminal`)
-- Hafif bir panel (`tint2`)
-- Hafif bir dosya yöneticisi (`thunar`) 
-- Hafif bir not uygulaması (`mousepad`)
-- Hafif bir görsel görüntüleyici (`feh`)
-~~- Hafif bir medya oynatıcı (`mpv`)~~ Yerine (`vlc`) eklendi
-- Kullanışlı bir uygulama başlatıcı (`rofi`)
-~~- Modern ve kolay bir kabuk (`fish`)~~ Kaldırıldı
-- apt alternatifi bir paket yöneticisi (`nala`)
-- İnternet sürücüleri (`avahi`, `network-manager` vb.)
-- Ses sürücüleri (`pipewire`)
-~~- Gizliliğe önem veren bir tarayıcı (`brave`)~~ Yerine (`firefox-esr`) eklendi
-- Bildirim arka plan programı (`dunst`)
-~~- Yeni ikon teması (`papirus`)~~ Yerine (`numix-icon-theme`) eklendi
-- ay yuuz debiyan baydıwey (`neofetch`)
-  
- ve dahası...
 
 ## [TR] KURULUM
 
 Aşağıdaki komutları terminale girmeniz yeterli olacaktır.
 ```
-sudo apt install git && git clone https://github.com/Efeisot/minimal-openbox-installer.git && cd minimal-openbox-installer && chmod +x *.sh && ./install.sh
+sudo apt install git veya sudo pacman -S git
+git clone https://github.com/Efeisot/minimal-openbox-installer.git
+cd minimal-openbox-installer/
+chmod *.sh
+./debian-installer.sh veya ./arch-installer,.sh
 ```
 
 ## [TR] KURULUM SONRASI
 
-`lxappearance`, `obconf` ve `tint2` yardımıyla basit kişiselleştirmelerinizi yapabilirsiniz. (Eklemedim lakin QT temaları için Kvantum´a bakabilirsiniz]
-
+`lxappearance`, `obconf`, `kvantum`  ve `tint2` yardımıyla basit kişiselleştirmelerinizi yapabilirsiniz. 
 Eğer kapsamlı bir kişiselleştirme yapmak istiyorsanız internette bulunan bununla ilgili rehberlerden yararlanabilirsiniz.
-
 Duvar kağıdını değiştirmek için istediğiniz duvar kağıdını ~/.wp/ klasörüne wp.png adını vererek atın.
