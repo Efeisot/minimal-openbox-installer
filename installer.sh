@@ -25,7 +25,7 @@ while true; do
         xdg-user-dirs-update
 
         echo "Copying wallpaper..."
-        mkdir ~/.local/share/wallpaper
+        mkdir -p ~/.local/share/wallpaper
         sudo cp wp.png ~/.local/share/wallpaper
 
         echo "Copying tint2 config..."
@@ -41,19 +41,12 @@ while true; do
         echo "Arch selected:"
 
         echo "Updating system..."
-        sudo pacman -Syu --noconfirm
-
-        echo "Installing Yay..."
-        sudo pacman -S --needed git base-devel
-        git clone https://aur.archlinux.org/yay-bin.git
-        cd yay-bin
-        makepkg -si
-        cd ..
-        yay -Syu
+        sudo pacman -Sy
 
         echo "Installing necessary packages..."
-        sudo pacman -S --noconfirm acpi acpid alacritty alsa-utils arc-icon-theme avahi curl dialog dunst dbus dosfstools feh firefox gedit gvfs libnotify ly lxappearance-obconf-gtk3 kvantum lxinput lxrandr menumakermtools neofetch networkmanager network-manager-applet openbox obconf-qt pavucontrol pipewire volumeicon rofi thunar tint2 wmctrl vlc xdg-user-dirs xorg xorg-xinit
-
+        sudo pacman -S --noconfirm xorg xorg-xinit
+        sudo pacman -S --noconfirm alsa-utils arc-icon-theme curl dialog dunst dbus dosfstools feh firefox gedit gvfs libnotify lxappearance-obconf-gtk3 kvantum lxinput lxrandr lxterminal menumakermtools neofetch networkmanager network-manager-applet openbox obconf-qt pavucontrol pipewire volumeicon rofi thunar tint2 wmctrl vlc xdg-user-dirs
+        sudo pacman -S --noconfirm acpi acpid avahi ly
         echo "Adding system services..."
         sudo systemctl enable avahi-daemon.service
         sudo systemctl enable acpid.service
@@ -63,7 +56,7 @@ while true; do
         xdg-user-dirs-update
 
         echo "Copying wallpaper..."
-        mkdir ~/.local/share/wallpaper
+        mkdir -p ~/.local/share/wallpaper
         sudo cp wp.png ~/.local/share/wallpaper
 
         echo "Copying tint2 config..."
@@ -72,6 +65,14 @@ while true; do
 
         echo "Copying Openbox config..."
         mkdir ~/.config/openbox/
+
+        echo "Installing Yay..."
+        sudo pacman -S --needed git base-devel
+        git clone https://aur.archlinux.org/yay-bin.git
+        cd yay-bin
+        makepkg -si
+        cd ..
+        yay -Syu
 
         break
     elif [ $number = 3 ]; then
