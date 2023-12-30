@@ -1,4 +1,4 @@
-feh --bg-fill ~/.wp/wp.png &
+feh --bg-fill ~/.local/share/wallpaper/wp.png &
 tint2 &
 volumeicon &
 nm-applet &
