@@ -191,7 +191,7 @@ ac_disconnected_cmd =
 #-------------------------------------
 # Button 1
 button = new
-button_icon = debian
+button_icon = anjuta
 button_text = 
 button_lclick_command = rofi -modi drun -show drun
 button_rclick_command = rofi -modi drun -show drun
