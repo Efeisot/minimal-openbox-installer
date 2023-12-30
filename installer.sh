@@ -45,7 +45,7 @@ while true; do
 
         echo "Installing necessary packages..."
         sudo pacman -S --noconfirm xorg xorg-xinit
-        sudo pacman -S --noconfirm alsa-utils arc-icon-theme curl dialog dunst dbus dosfstools feh firefox gedit gvfs libnotify lxappearance kvantum lxinput lxrandr lxterminal menumaker mtools neofetch networkmanager network-manager-applet openbox obconf-qt pavucontrol pipewire volumeicon rofi thunar tint2 wmctrl vlc xdg-user-dirs
+        sudo pacman -S --noconfirm alsa-utils arc-icon-theme curl dialog dunst dbus dosfstools feh firefox gedit gvfs libnotify lxappearance kvantum lxinput lxrandr lxterminal menumaker mtools neofetch networkmanager network-manager-applet openbox obconf-qt papirus-icon-theme pavucontrol pipewire volumeicon rofi thunar tint2 wmctrl vlc xdg-user-dirs
         sudo pacman -S --noconfirm acpi acpid avahi ly
         echo "Adding system services..."
         sudo systemctl enable avahi-daemon.service
