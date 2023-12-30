@@ -7,6 +7,8 @@
 
 <div align="center">
   <img src="https://media.discordapp.net/attachments/1100495744126947328/1190411005113675876/Screenshot_2023-12-30-00-37-36-073_x.org.server-1_1.jpg?ex=65a1b3a4&is=658f3ea4&hm=c1be85d2d18d2b0f47028ae6bc290a13a11cc043fe7ff7793d3787e2dc5a0179&">
+  <img src="![Screenshot 2023-12-30 093329](https://github.com/Efeisot/minimal-openbox-installer/assets/104940108/5cf42581-ad5b-4709-99e8-2f256752e22f)
+">
 </div>
   <p align="center">After the installation | Kurulumdan sonra</p>
 
