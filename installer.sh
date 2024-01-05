@@ -26,15 +26,15 @@ while true; do
 
         echo "Copying wallpaper..."
         mkdir -p ~/.local/share/wallpaper
-        sudo cp wp.png ~/.local/share/wallpaper
+        cp wp.png ~/.local/share/wallpaper
 
         echo "Copying tint2 config..."
         mkdir ~/.config/tint2/
-        sudo cp tint2rc ~/.config/tint2/
+        cp tint2rc ~/.config/tint2/
 
         echo "Copying Openbox config..."
         mkdir ~/.config/openbox/
-        sudo cp autostart ~/.config/openbox/
+        cp autostart ~/.config/openbox/
 
         break
     elif [ $number = 2 ]; then
@@ -57,15 +57,15 @@ while true; do
 
         echo "Copying wallpaper..."
         mkdir -p ~/.local/share/wallpaper
-        sudo cp wp.png ~/.local/share/wallpaper
+        cp wp.png ~/.local/share/wallpaper
 
         echo "Copying tint2 config..."
         mkdir ~/.config/tint2/
-        sudo cp tint2rc ~/.config/tint2/
+        cp tint2rc ~/.config/tint2/
 
         echo "Copying Openbox config..."
         mkdir ~/.config/openbox/
-        sudo cp autostart ~/.config/openbox/
+        cp autostart ~/.config/openbox/
         
         echo "Installing Yay..."
         sudo pacman -S --needed git base-devel
